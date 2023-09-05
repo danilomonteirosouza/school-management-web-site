@@ -343,6 +343,7 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
+  border-radius: 20px;
   background-color: #0c4f8a;
   color: #ffffff;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
