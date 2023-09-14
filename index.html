@@ -339,11 +339,24 @@
                       <div class="service-block"> 
                         <div class="service-info">
                           <!--<i class="service-icon fa fa-shopping-cart"></i>-->
-                          <div class="service-image">
-                            <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
-                          </div>
-                          <h4>Web Design</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                          <head>
+                            <title>Emissão de Certificado</title>
+                        </head>
+                        <body>
+                            <div class="service-image">
+                                <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded" id="imagemRedirecionar">
+                            </div>
+                        
+                            <script>
+                                // Obtenha a referência para a imagem
+                                var imagem = document.getElementById("imagemRedirecionar");               
+                                imagem.addEventListener("click", function() {
+                                    window.location.href = "views/form-certificado/emissao-certificado.html";
+                                });
+                            </script>
+                        </body>
+                          <h4>Emissão de Certificado</h4>
+                          <p>Solicite o seu Certificado, Declaração, Ficha 19 e entre outros documentos.</p>
                         </div>
                       </div>
                     </div>
