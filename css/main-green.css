@@ -695,14 +695,14 @@ body > footer .copyrights {
   padding: 8px 0;
   margin: 0 20px;
   text-align: center;
-  color: #49515d;
+  color: #000000; /* Cor Dos Menus Do Canto Superior Direito */
   font-size: 15px;
   line-height: 1;
   font-weight: 400;
   position: relative;
   text-decoration: none;
   outline: none;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .site-main-menu li:last-child a {
@@ -725,7 +725,7 @@ body > footer .copyrights {
   width: 0;
   height: 2px;
   margin: 0 auto;
-  background-color: #0c4f8a;
+  background-color: #ffffff;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
